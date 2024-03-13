@@ -8,7 +8,4 @@ RUN wget --output-document=kubebuilder https://go.kubebuilder.io/dl/latest/$(go 
      && chmod +x kubebuilder \
      && mv kubebuilder /usr/local/bin/ 
 
-RUN adduser -D -g '' kubebuilder-user
-USER kubebuilder-user
-
 WORKDIR /home
