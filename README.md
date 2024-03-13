@@ -1,7 +1,5 @@
 # Context
 
-[kubebuilder](https://book.kubebuilder.io) doesn't support windows ([issue open](https://github.com/kubernetes-sigs/kubebuilder/issues/2940)), it's possible to use it without WSL using only Docker
-
 [Kubebuilder](https://book.kubebuilder.io) currently lacks native support for Windows ([issue #2940](https://github.com/kubernetes-sigs/kubebuilder/issues/2940)). However, a workaround exists, allowing you to utilize Kubebuilder without WSL by leveraging Docker.
 
 ## Explanation
