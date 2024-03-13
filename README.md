@@ -43,3 +43,8 @@ kubebuilder init --domain=example.com
 
 <span style="color:purple;">local kubebuilder folder is bounded to /home of the container</span>
 <span style="color:pink;">code generated on container can be seen on your local IDE</span>
+
+```diff
+- code generated on container can be seen on your local IDE
+@@ local kubebuilder folder is bounded to /home of the container@@
+```
